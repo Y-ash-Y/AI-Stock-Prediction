@@ -1,0 +1,45 @@
+
+---
+
+# 📄 `.gitignore`
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.venv/
+env/
+venv/
+ENV/
+.env
+*.env
+
+# Jupyter
+.ipynb_checkpoints
+.notebooks_cache
+
+# Data & models
+data/raw/*
+data/processed/*
+data/models/*
+logs/*
+reports/*
+
+# DB / Cache
+*.db
+*.sqlite3
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build / Dist
+dist/
+build/
